@@ -185,6 +185,7 @@ namespace SwitchboardPlugLocale {
                 locale += "LC_NUMERIC=%s".printf (format);
                 locale += "LC_MONETARY=%s".printf (format);
                 locale += "LC_MEASUREMENT=%s".printf (format);
+                locale += "LC_ALL=%s".printf (format);
             }
 
             try {
