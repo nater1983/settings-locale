@@ -53,7 +53,7 @@ namespace SwitchboardPlugLocale {
                 string res = "";
 
                 Process.spawn_async_with_pipes (null,
-                    {"check-language-support", null},
+                    {"locale", "-a", null},
                     Environ.get (),
                     SpawnFlags.SEARCH_PATH,
                     null,
